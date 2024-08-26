@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../src/png/cc.png" type="image/x-icon">
+
+    <title>Credit Card Fraud Detection project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    window.addEventListener('load', function() {
+        var preloader = document.getElementById('preloader');
+        preloader.classList.add('hidden'); // Adds the hidden class to fade out the preloader
+        setTimeout(function() {
+            preloader.style.display = 'none'; // Completely remove preloader from the DOM after fading
+        }, 400); // Time matches the transition duration in CSS
+    });
+</script>
+
+<body class="dark-mode">
+    <!-- Using dark-mode as default, can be toggled -->
+    <!-- Header -->
+    <!-- You can add header here -->
+
+    <!-- Hero Section -->
+    <div id="preloader"></div>
+    <div id="nav">
+        <button class="letsTalkBtn" onclick="history.back()">
+            <p class="letsTalkBtn-text">Back</p>
+            <span class="letsTalkBtn-BG"></span>
+        </button>
+    </div>
+    <section id="hero">
+
+
+        <h1>Welcome to Credit Card Fraud Detection project details -2023</h1>
+        <p>The Credit Card Fraud Detection project is an innovative web-based solution designed to help users pre-emptively verify the legitimacy of credit card transactions. </p>
+
+        <img src="../src/projects/cc III.png" alt="Project Image">
+    </section>
+
+    <!-- About the Project -->
+    <section id="about">
+        <h2>Technologies used</h2>
+        <p>Developed the frontend using HTML and styled using CSS, ensuring a responsive design. Implemented the backend with Flask python, Deeplearning algorithms are used for training.</p>
+        <li>HTML</li>
+
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Flask Python</li>
+        <li>Convolutional Neural Networks (CNNs)</li>
+        <li>Decision Trees</li>
+        <li> Random Forests </li>
+
+    </section>
+
+
+    <!-- Features -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><b>Neural Networks:</b>The core of the fraud detection system is based on deep neural networks (DNNs), which are capable of modeling complex relationships in transaction data. These networks are trained on vast amounts of data to recognize
+                fraudulent patterns that might be overlooked by simpler algorithms.</li>
+            <li><b> Real-Time Transaction Analysis:</b>Users can enter transaction details such as the time, CVV , expiry date, and cardholder information. The deep learning model which is trainded by dataset then analyzes the data in real-time to determine
+                the likelihood of fraud.</li>
+            <li><b>Supervised and Unsupervised Learning:            </b>The system combines supervised learning (using labeled fraud data) and unsupervised learning (for detecting unknown fraud patterns) to improve detection accuracy.</li>
+
+        </ul>
+    </section>
+
+    <!-- Project Gallery -->
+    <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <img src="../src/projects/cc I.png" alt="Screenshot 2">
+            <img src="../src/projects/cc II.png " alt=" Screenshot 3 ">
+            <img src="../src/projects/cc III.png " alt="Screenshot 4 ">
+
+        </div>
+    </section>
+
+    <!-- Project Timeline -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Muhammad Nazeem N. All Rights Reserved.</p>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../src/png/ems.png" type="image/x-icon">
+
+    <title>Employee Mangaement System project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    window.addEventListener('load', function() {
+        var preloader = document.getElementById('preloader');
+        preloader.classList.add('hidden'); // Adds the hidden class to fade out the preloader
+        setTimeout(function() {
+            preloader.style.display = 'none'; // Completely remove preloader from the DOM after fading
+        }, 400); // Time matches the transition duration in CSS
+    });
+</script>
+
+<body class="dark-mode">
+    <!-- Using dark-mode as default, can be toggled -->
+    <!-- Header -->
+    <!-- You can add header here -->
+
+    <!-- Hero Section -->
+
+    <div id="preloader"></div>
+    <div id="nav">
+        <button class="letsTalkBtn" onclick="history.back()">
+            <p class="letsTalkBtn-text">Back</p>
+            <span class="letsTalkBtn-BG"></span>
+        </button>
+    </div>
+    <section id="hero">
+        <h1>Welcome to Employee Mangaement System project details -2023</h1>
+        <p>PHP project that can make employer work convenient and easy to manage all the employees within the company.</p>
+        <img src="../src/projects/ems1.png    " alt="Project Image">
+    </section>
+
+    <!-- About the Project -->
+    <section id="about">
+        <h2>Technologies used</h2>
+        <p>Developed the frontend using React.js, focusing on creating reusable components and ensuring a responsive design. Implemented the backend with PHP and Database used is MySQL.</p>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li> MySQL Database</li>
+        <li>AdminLTE Template</li>
+        <li>Bootstrap CSS Framework
+        </li>
+    </section>
+
+
+    <!-- Features -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Each employee can update their profile and password on the system on the employee side of the system.</li>
+            <li>They can only create one leave application on the system which means if they already created a leave application and still in pending status, employee can't add another application until the pending one is approved or denied.</li>
+
+        </ul>
+    </section>
+
+    <!-- Project Gallery -->
+    <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <img src="../src/projects/ems1.png" alt="Screenshot 2">
+
+            <img src="../src/projects/ems2.png" alt="Screenshot 3">
+            <img src="../src/projects/ems8.png" alt="Screenshot 9">
+            <img src="../src/projects/ems3.png" alt="Screenshot 4">
+            <img src="../src/projects/ems4.png" alt="Screenshot 5">
+            <img src="../src/projects/ems5.png" alt="Screenshot 6">
+            <img src="../src/projects/ems6.png" alt="Screenshot 7">
+            <img src="../src/projects/ems7.png" alt="Screenshot 8">
+
+            <img src="../src/projects/ems9.png" alt="Screenshot 10">
+            <img src="../src/projects/ems10.png" alt="Screenshot 11">
+            <img src="../src/projects/ems11.png" alt="Screenshot 12">
+            <img src="../src/projects/ems12.png" alt="Screenshot 13">
+
+
+        </div>
+    </section>
+
+    <!-- Project Timeline -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Muhammad Nazeem N. All Rights Reserved.</p>
+
+    </footer>
+</body>
+
+</html>

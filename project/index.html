@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../src/png/hlrm.png" type="image/x-icon">
+
+    <title>HLRM project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    window.addEventListener('load', function() {
+        var preloader = document.getElementById('preloader');
+        preloader.classList.add('hidden'); // Adds the hidden class to fade out the preloader
+        setTimeout(function() {
+            preloader.style.display = 'none'; // Completely remove preloader from the DOM after fading
+        }, 400); // Time matches the transition duration in CSS
+    });
+</script>
+
+<body class="dark-mode">
+    <!-- Using dark-mode as default, can be toggled -->
+    <!-- Header -->
+    <!-- You can add header here -->
+
+    <!-- Hero Section -->
+
+    <div id="preloader"></div>
+    <div id="nav">
+        <button class="letsTalkBtn" onclick="history.back()">
+            <p class="letsTalkBtn-text">Back</p>
+            <span class="letsTalkBtn-BG"></span>
+        </button>
+    </div>
+    <section id="hero">
+        <h1>Welcome to HLRM project details</h1>
+        <p>Contact information site for manpower training consultancy</p>
+        <img src="../src/projects/hlrm I.png" alt="Project Image">
+    </section>
+
+    <!-- About the Project -->
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>The HLRM project contact information site for a manpower training consultancy would typically be a web page or section of a website that provides detailed information about how to get in touch with the consultancy, along with relevant details
+            about the services they offer.</p>
+
+    </section>
+
+
+
+    <!-- About the Project -->
+    <section id="about">
+        <h2>Technologies used</h2>
+        <p>Developed the frontend using React.js, focusing on creating reusable components and ensuring a responsive design. Implemented the backend with PHP and Database used is MySQL.</p>
+        <li>React</li>
+
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li> MySQL Database</li>
+
+    </section>
+    <!-- Features -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li> <b>User-Friendly Layout:</b> The site is so clean, well-organized layout that makes it easy for visitors to find the information they need, such as contact details, program offerings, and support services.</li>
+            <li><b>Multiple Contact Methods:</b> Clearly displayed phone numbers, email addresses, and a physical address for various departments (e.g., general inquiries, admissions, support).</li>
+            <li><b>Online Contact Form:</b> A form allowing visitors to send inquiries directly through the website, with customized fields .</li>
+            <li><b>Responsive Design:</b> The site should be fully optimized for mobile devices, ensuring that all features (like the contact form, navigation, and interactive map) work seamlessly on smartphones and tablets.</li>
+
+        </ul>
+    </section>
+
+    <!-- Project Gallery -->
+    <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <img src="../src/projects/hlrm II.png" alt="Screenshot 2">
+            <img src="../src/projects/hlrm III.png" alt="Screenshot 3">
+            <img src="../src/projects/hlrm IV.png" alt="Screenshot 4">
+            <img src="../src/projects/hlrm V.png" alt="Screenshot 5">
+        </div>
+    </section>
+
+    <!-- Project Timeline -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Muhammad Nazeem N. All Rights Reserved.</p>
+
+    </footer>
+</body>
+
+</html>

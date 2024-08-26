@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../src/png/mm.png" type="image/x-icon">
+
+    <title>Tek Matrimony project</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+
+<body class="dark-mode">
+    <script>
+        window.addEventListener('load', function() {
+            var preloader = document.getElementById('preloader');
+            preloader.classList.add('hidden'); // Adds the hidden class to fade out the preloader
+            setTimeout(function() {
+                preloader.style.display = 'none'; // Completely remove preloader from the DOM after fading
+            }, 400); // Time matches the transition duration in CSS
+        });
+    </script>
+    <!-- Using dark-mode as default, can be toggled -->
+    <!-- Header -->
+    <!-- You can add header here -->
+
+    <!-- Hero Section -->
+
+    <div id="preloader"></div> <noscript>Allow Javascript</noscript>
+    <div id="nav">
+        <button class="letsTalkBtn" onclick="history.back()">
+            <p class="letsTalkBtn-text">Back</p>
+            <span class="letsTalkBtn-BG"></span>
+        </button>
+    </div>
+    <section id="hero">
+        <h1>Welcome to Tek Matrimony project details -2023</h1>
+        <p>Tek Matrimony is an advanced matrimonial website designed to facilitate the process of finding a life partner. The platform offers a range of features to support users in creating profiles, searching for potential matches, and connecting with
+            others who share similar interests, values, and cultural backgrounds.</p>
+        <img src="../src/projects/matrimony I.png" alt="Project Image">
+
+    </section>
+
+    <!-- About the Project -->
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>Developed the frontend using React.js, focusing on creating reusable components and ensuring a responsive design. Implemented the backend with PHP and Database used is MySQL.</p>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><b>Simple Sign-Up Process:</b> Easy registration process using email, phone number, or social media accounts. Multi-step profile creation wizard that guides users through entering personal details, preferences, and uploading photos.</li>
+            <li><b>Comprehensive Profile Information:</b>Detailed profile sections covering personal details, education, occupation, lifestyle, and family background. Options to include partner preferences, such as age, religion, caste, education, and more.</li>
+            <li><b>Advanced Search and Matchmaking:</b>Powerful search functionality with filters for age, location, religion, caste, education, occupation, and more.</li>
+        </ul>
+    </section>
+
+    <!-- Project Gallery -->
+    <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <img src="../src/projects/matrimony I.png" alt="Screenshot 2">
+            <img src="../src/projects/matrimony II.png" alt="Screenshot 3">
+            <img src="../src/projects/matrimony III.png" alt="Screenshot 4">
+            <img src="../src/projects/matrimony IV.png" alt="Screenshot 5">
+            <img src="../src/projects/matrimony V.png" alt="Screenshot 6">
+            <img src="../src/projects/matrimony VI.png" alt="Screenshot 7">
+
+        </div>
+    </section>
+
+    <!-- Project Timeline -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Muhammad Nazeem N. All Rights Reserved.</p>
+
+    </footer>
+</body>
+
+</html>
