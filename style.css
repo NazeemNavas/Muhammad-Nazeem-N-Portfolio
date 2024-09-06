@@ -31,6 +31,7 @@ noscript {
 .main,
 body {
     overflow-x: hidden;
+    
 }
 
 #backtotopbutton article,
@@ -557,12 +558,13 @@ iframe {
     right: -15%;
     top: 0;
     background-color: var(--color-light-purple);
-    width: 600px;
+   width: 600px;
     height: 100vh;
     filter: blur(300px);
     opacity: 0.3;
-    animation: 1s linear infinite alternate-reverse breath;
+    animation: 1s linear infinite alternate-reverse breath; 
 }
+
 
 @keyframes breath {
     from {
@@ -1689,7 +1691,7 @@ footer {
     }
     
     
-    .cursor-inner,
+    .cursor-inner,.blob,
     .cursor-outer,
     .navbar-tabs-ul {
        display: none;
@@ -1845,7 +1847,8 @@ footer {
     .image-div {
         padding: 0 0 0 80px;
     }
-}
+    
+}   
 
 @media screen and (max-width: 768px) {
     html {
@@ -1880,10 +1883,7 @@ footer {
     .setting-container {
         margin-left: 0;
     }
-    .dp::after,
-    .dp::before {
-    
-    }
+   
     .logo {
         width: 18%;
     }
