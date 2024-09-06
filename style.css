@@ -575,7 +575,7 @@ iframe {
 
 .landing-page-container {
     width: 100%;
-    height: calc(100vh - 115px);
+    height: 80vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -601,8 +601,14 @@ iframe {
 
 #name,
 #work {
-    font-size: 8rem;
+  
     width: fit-content;
+}
+#name{
+    font-size: 8rem;
+}
+#work {
+    font-size: 7rem;
 }
 
 #name,
@@ -983,6 +989,7 @@ iframe {
 .dp img,
 .dp::after,
 .dp::before {
+    
     width: 300px;
 }
 
@@ -1010,6 +1017,11 @@ iframe {
     width: 100%;
     display: flex;
     margin-top: 30px;
+    
+}
+.display-center{
+    display: flex;
+    align-items: center;
 }
 
 .about-info {
@@ -1026,7 +1038,7 @@ iframe {
 .contact-section input,
 .contact-section textarea,
 .contact-section button {
-    width: 90%;
+    width: 100%;
     line-height: 20px;
     margin-bottom: 40px;
 }
@@ -1659,6 +1671,7 @@ footer {
 }
 
 @media screen and (max-width: 998px) {
+    
     #hamburger-button,
     .hamburger {
         background-color: transparent;
@@ -1674,11 +1687,12 @@ footer {
     html {
         font-size: 55%;
     }
-    .blob,
+    
+    
     .cursor-inner,
     .cursor-outer,
     .navbar-tabs-ul {
-        display: none;
+       display: none;
     }
     .stopscrolling {
         overflow: hidden;
@@ -1845,9 +1859,11 @@ footer {
         height: 100px;
         font-size: 3.5rem;
     }
-    #name,
-    #work {
+    #name{
         font-size: 5.5rem;
+    }
+    #work {
+        font-size: 5rem;
     }
     #info-para,
     .language-name {
@@ -1866,7 +1882,7 @@ footer {
     }
     .dp::after,
     .dp::before {
-        display: none;
+    
     }
     .logo {
         width: 18%;
@@ -1913,7 +1929,7 @@ footer {
         transition-duration: 1s;
     }
     .landing-page-container {
-        height: 85vh;
+        height: 90vh;
     }
     .text-content {
         justify-content: flex-start;
@@ -1940,6 +1956,12 @@ footer {
         width: 100%;
         height: calc(76vw / 2);
     }
+    .about-section-container{
+        padding-top: 0px;
+    }
+    .skills-section-container {
+        padding-top: 50px;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -1959,10 +1981,17 @@ footer {
     .two-words article {
         font-size: 2.2rem;
     }
-    #name,
-    #work {
-        font-size: 4.5rem;
+    #name
+     {
+        font-size: 4.5rem;  
     }
+    #work{
+        font-size: 4rem;
+    }
+    .landing-page-container {
+        height: 70vh;
+    }
+    
 }
 
 @media screen and (max-width: 375px) {
@@ -1970,8 +1999,14 @@ footer {
         font-size: 42%;
     }
     .dp img {
-        width: 200px;
+        width: 60vw;
     }
+    .dp::after,
+.dp::before {
+   height: 60vw;
+    width: 60vw;
+    
+}
     .two-words {
         height: 50px;
     }
